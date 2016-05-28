@@ -1,0 +1,47 @@
+/* CSS Entry Point */
+
+// Turn on freq used libraries
+// @import 'normalize-css/normalize';
+// @import 'font-awesome/scss/font-awesome';
+
+ul {
+	list-style: none;
+	margin-top: 100px;
+}
+
+li {
+	display: inline-block;
+	margin: 40px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table {
+	background-color: black;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+td {
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	font-size: 40px;
+	background: green;
+	color: white;
+}
+
+.operators {
+	color: black;
+	background-color: lightgreen;
+}
+
+#display {
+	text-align: right;
+	padding-right: 25px;
+}
+
+#greater-than {
+	font-size: 200px;
+	padding-left: 40px;
+}
